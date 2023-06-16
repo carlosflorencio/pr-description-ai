@@ -44,17 +44,17 @@ var rootCmd = &cobra.Command{
 		}
 
 		prompt := fmt.Sprintf(`
-		Generate a Pull Request description. Current branch name: %s
-		The description should be in markdown format using the following template:
+		Current branch name: %s
+		Git file changes:
+		%s
 
+		Generate a Pull Request description, the description should be in markdown 
+		format using the following template:
 		## Motivation
 		[insert here the possible motivation for the changes in a small paragraph]
 
 		## Changes
 		[insert here the description of the changes in a list]
-
-		Here are the git changes:
-		%s
 		`, currentBranch, changes)
 
 		response, err := ai.ChatGPT(prompt, gptModel)
