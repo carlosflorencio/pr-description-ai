@@ -10,7 +10,7 @@ CLI tool that uses OpenAI ChatGPT to generate Pull Request text description from
 ## Install
 
 ```shell
-go install github.com/carlosflorencio/pr-description-ai
+go install github.com/carlosflorencio/pr-description-ai@latest
 ```
 
 ## Set the API Key
