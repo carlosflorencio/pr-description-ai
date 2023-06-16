@@ -80,6 +80,6 @@ var targetBranch string
 var gptModel string
 
 func init() {
-	rootCmd.Flags().StringVarP(&targetBranch, "branch", "b", "develop", "Target branch to compare against (default: develop)")
-	rootCmd.Flags().StringVarP(&gptModel, "model", "m", openai.GPT3Dot5Turbo, "OpenAI model to use (default: gpt-3.5-turbo)")
+	rootCmd.Flags().StringVarP(&targetBranch, "branch", "b", "develop", "Target branch to compare against")
+	rootCmd.Flags().StringVarP(&gptModel, "model", "m", openai.GPT4, "OpenAI model to use")
 }

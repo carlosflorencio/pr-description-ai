@@ -17,7 +17,7 @@ go install github.com/carlosflorencio/pr-description-ai
 
 ```shell
 # Required shell environment variable
-export OPENAI_API_KEY=SFD@#!SADF@#$%
+export OPENAI_API_KEY=3RBUSS03KNRSOGPRT847WKT72HHIUKDO
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ Usage:
   pr-description-ai [flags]
 
 Flags:
-  -b, --branch string   Target branch to compare against (default: develop) (default "develop")
+  -b, --branch string   Target branch to compare against (default "develop")
   -h, --help            help for pr-description-ai
-  -m, --model string    OpenAI model to use (default: gpt-3.5-turbo) (default "gpt-3.5-turbo")
+  -m, --model string    OpenAI model to use (default "gpt-4")
 ```
